@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_01_13_102650) do
     t.string "name"
     t.string "roll_number"
     t.string "branch"
-    t.decimal "cgpa", precision: 2, scale: 2
+    t.decimal "cgpa", precision: 3, scale: 2
     t.text "address"
     t.integer "admission_year"
     t.datetime "created_at", precision: 6, null: false
